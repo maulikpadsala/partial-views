@@ -1,0 +1,12 @@
+﻿@using Files.Core.PartailViews.Repository
+@model Films
+<div style="border: 1px solid black; margin: 15px; font-size:15px">
+    <h2>@Model.Title</h2>
+
+    <time><b>Duration:</b> @Model.Duration</time>
+
+    <p><b>Description:</b> @Model.Discritption</p>
+
+
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Html.ActionLink("Back to List", "Index")
